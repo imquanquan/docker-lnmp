@@ -9,6 +9,7 @@ services:
       - php
     volumes:
       - web-data:/var/www
+      - /ssl/:/ssl/
     ports:
       - 80:80
     networks:
